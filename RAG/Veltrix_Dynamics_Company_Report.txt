@@ -1,0 +1,82 @@
+Veltrix Dynamics Pvt. Ltd.
+Internal Company Profile & Operations Report — FY 2024–25
+
+Founded: 2017
+Headquarters: Pune, Maharashtra, India
+Industry: AI-Powered Supply Chain & Logistics
+Employees: 1,240 (as of March 2025)
+CIN: U72900MH2017PTC296411
+Annual Revenue: INR 387 Crore (FY 2024–25)
+CEO: Rhea Shankar Vaidya
+Clients: 200+ enterprise clients across 18 countries
+
+
+1. Company Overview
+
+Veltrix Dynamics Pvt. Ltd. is a Pune-based technology company specialising in artificial intelligence-driven supply chain optimisation, real-time logistics intelligence, and enterprise resource planning (ERP) integrations. Incorporated in 2017 by a group of IIT Bombay and IIM Ahmedabad alumni, Veltrix was founded on the conviction that Indian manufacturing and retail enterprises were grossly underserved by legacy logistics software. The founding team — led by Rhea Shankar Vaidya, Aditya Prasad Nair, and Sonal Mehrotra — identified a critical gap between warehouse management systems and last-mile delivery intelligence, and built Veltrix's first product, VeltrixFlow, to address it.
+
+Over the course of eight years, Veltrix has evolved from a five-person startup operating out of a co-working space in Baner, Pune, into a mid-market enterprise SaaS company with offices in Bengaluru, Mumbai, Dubai, and Singapore. The company serves over 200 enterprise clients, including several Fortune 500 subsidiaries operating in India and Southeast Asia. Veltrix's platform is currently processing more than 4.2 million shipment events per day and managing inventory worth approximately INR 14,000 crore across its clients' networks.
+
+
+2. Products & Services
+
+2.1 VeltrixFlow — Core Logistics Intelligence Platform
+
+VeltrixFlow is Veltrix's flagship product and accounts for roughly 68% of the company's annual recurring revenue. It is a cloud-native SaaS platform that integrates with existing ERP systems (SAP, Oracle NetSuite, Microsoft Dynamics 365) and provides a unified control tower for inbound and outbound logistics. Key capabilities include real-time shipment tracking, carrier performance benchmarking, dynamic route optimisation powered by Veltrix's proprietary RouteIQ engine, and predictive delay alerts. VeltrixFlow supports multi-modal logistics — road, rail, air, and sea freight — and can manage cross-border compliance documentation for 40+ countries. Pricing is subscription-based, starting at INR 4.8 lakh per month for mid-market clients and scaling up for enterprise deployments with custom SLA guarantees.
+
+2.2 VeltrixSense — AI-Powered Demand Forecasting
+
+Launched in 2021, VeltrixSense is Veltrix's demand intelligence module. It leverages gradient-boosted tree models and LSTM neural networks trained on historical sales data, seasonal patterns, macroeconomic indicators, and external signals (weather, port congestion, geopolitical indices) to forecast demand at SKU and category levels with a mean absolute percentage error (MAPE) of under 8% across pilot cohorts. VeltrixSense is sold as an add-on to VeltrixFlow and is currently adopted by 112 of Veltrix's clients. It also includes an auto-replenishment module that can trigger purchase orders in connected ERP systems without manual intervention.
+
+2.3 VeltrixEdge — Warehouse Automation Integration
+
+VeltrixEdge, released in early 2023, is Veltrix's most recent product line. It provides middleware connectivity between robotic warehouse systems (AutoStore, Locus Robotics, and custom AMR fleets) and Veltrix's cloud platform. VeltrixEdge translates task commands from the Veltrix control tower into robot-specific APIs, enabling centralised orchestration of picking, packing, and putaway operations. As of March 2025, VeltrixEdge is deployed in 31 warehouses across India and the UAE. The product is still in its growth phase and contributes approximately 9% of total revenue.
+
+
+3. Financial Highlights (FY 2024–25)
+
+Veltrix Dynamics reported its highest-ever revenue of INR 387 crore in FY 2024–25, representing a year-on-year growth of 41% over FY 2023–24 (INR 274 crore). The company turned EBITDA-positive for the first time in FY 2022–23, and in FY 2024–25 achieved an EBITDA margin of 14.2%, translating to an EBITDA of approximately INR 55 crore. Net profit stood at INR 18.4 crore after accounting for depreciation, amortisation of capitalised software development costs, and taxes. The company holds a cash and cash-equivalent reserve of INR 142 crore, providing a comfortable runway even in the absence of fresh fundraising.
+
+Metric                        FY 2023–24        FY 2024–25        YoY Growth
+Total Revenue                 INR 274 Cr        INR 387 Cr        +41%
+EBITDA                        INR 29 Cr         INR 55 Cr         +89%
+Net Profit / (Loss)           INR (4.1) Cr      INR 18.4 Cr       Profitable
+ARR (Annual Recurring Rev.)   INR 241 Cr        INR 348 Cr        +44%
+Cash & Equivalents            INR 98 Cr         INR 142 Cr        +45%
+
+
+4. Leadership Team
+
+Rhea Shankar Vaidya — Chief Executive Officer (CEO)
+Rhea is the co-founder and CEO of Veltrix Dynamics. A BTech (Computer Science) graduate from IIT Bombay and MBA from IIM Ahmedabad, she previously led product strategy at Mahindra Logistics before founding Veltrix. Rhea has been recognised in Forbes India's '30 Under 30' list (2020) and is a frequent speaker at supply chain and deep-tech conferences. She drives Veltrix's overall vision, investor relations, and strategic partnerships.
+
+Aditya Prasad Nair — Chief Technology Officer (CTO)
+Aditya oversees Veltrix's engineering, AI research, and infrastructure teams. He holds an MTech in AI from IIT Madras and spent six years at Amazon Robotics in Seattle before returning to India to co-found Veltrix. He architected the RouteIQ engine and leads the 180-person technology organisation. Under his leadership, Veltrix has filed 9 patents in the areas of multi-modal route optimisation and predictive logistics.
+
+Sonal Mehrotra — Chief Financial Officer (CFO)
+Sonal joined Veltrix as CFO in 2020 after a decade in investment banking at Axis Capital. She manages financial planning, regulatory compliance, and treasury operations. Her stewardship was instrumental in achieving EBITDA positivity in FY 2022–23 and in closing Veltrix's Series C round of USD 52 million in December 2023.
+
+Vikram Joshi — VP — Sales & Business Development
+Vikram leads Veltrix's global sales motion. He manages a team of 90 account executives and business development representatives spread across India, the Middle East, and Southeast Asia. Vikram was previously the Regional Sales Head for SAP India's supply chain vertical.
+
+
+5. Technology Infrastructure
+
+Veltrix's platform is built on a microservices architecture deployed on Amazon Web Services (AWS), with primary infrastructure in the ap-south-1 (Mumbai) region and disaster-recovery failover in ap-southeast-1 (Singapore). The company uses Kubernetes (Amazon EKS) for container orchestration, Apache Kafka for high-throughput event streaming (processing over 48,000 events per second at peak), and a combination of PostgreSQL and Apache Cassandra for transactional and time-series data respectively. The AI models powering VeltrixSense are trained on Veltrix's private ML infrastructure using NVIDIA A100 GPUs and are retrained on a bi-weekly cadence using new client data fed through privacy-preserving federated learning pipelines.
+
+Veltrix maintains ISO 27001:2022 certification for information security management and SOC 2 Type II attestation, both of which are critical requirements for its enterprise clients, particularly those in the pharmaceutical, FMCG, and automotive sectors. The platform guarantees a contractual uptime SLA of 99.95% and has maintained an actual uptime of 99.98% over the trailing 12 months.
+
+
+6. Strategic Roadmap (FY 2025–27)
+
+Veltrix's board-approved strategic plan for the next two financial years is anchored around three pillars: geographic expansion, product depth, and ecosystem partnerships.
+
+Geographic Expansion: Veltrix plans to open a full-service office in Riyadh, Saudi Arabia by Q2 FY 2025–26 to capitalise on the logistics infrastructure boom driven by Saudi Vision 2030. The company also intends to establish a local entity in Indonesia to address the archipelago's complex multi-modal logistics challenges, a market it estimates at over USD 300 million in addressable SaaS revenue.
+
+Product Depth: VeltrixSense 2.0, planned for release in Q3 FY 2025–26, will incorporate large language model (LLM)-based anomaly explanation, allowing supply chain managers to query forecast deviations in natural language. Additionally, Veltrix intends to launch a Carbon Footprint Tracking module within VeltrixFlow that will compute Scope 3 emissions across the logistics chain — a feature increasingly demanded by clients with ESG reporting obligations.
+
+Ecosystem Partnerships: Veltrix has signed a co-sell agreement with SAP India, under which Veltrix's products will be listed on the SAP Store and actively promoted by SAP's enterprise sales team to joint prospects. A similar agreement with Microsoft (Azure Marketplace listing and co-sell status) is in advanced negotiations as of March 2025. These partnerships are expected to meaningfully accelerate enterprise pipeline generation without a proportional increase in sales headcount.
+
+
+---
+This document is confidential and intended solely for internal use and authorised due-diligence purposes. Unauthorised reproduction or distribution is strictly prohibited. © 2025 Veltrix Dynamics Pvt. Ltd. All rights reserved. CIN: U72900MH2017PTC296411.
