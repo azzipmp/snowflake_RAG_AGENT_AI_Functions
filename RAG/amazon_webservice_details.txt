@@ -1,0 +1,110 @@
+If you're asking about Amazon's framework for Agentic AI, the main offerings today are:
+
+1. Amazon Web Services Bedrock Agents
+
+This is a managed service for building AI agents without creating the orchestration logic from scratch. It can:
+
+Understand user goals
+Invoke tools and APIs
+Query knowledge bases (RAG)
+Perform multi-step tasks
+Maintain conversational context
+Coordinate workflows across systems
+
+Typical flow:
+
+User
+  ↓
+Bedrock Agent
+  ↓
+Knowledge Base (RAG)
+  ↓
+APIs / Lambda Functions
+  ↓
+Final Response
+2. Amazon Bedrock AgentCore
+
+AgentCore is Amazon's newer platform focused on deploying, operating, and scaling production AI agents. Instead of building just a demo agent, it provides infrastructure for enterprise-grade agents.
+
+Key capabilities include:
+
+Secure agent runtime
+Long-term memory
+Identity and permissions management
+Tool/API integration
+Code execution
+Browser automation
+Observability and tracing
+Agent evaluation and governance
+AgentCore Architecture
+             +----------------+
+             | Foundation LLM |
+             +----------------+
+                      |
+                      v
++----------------------------------+
+|          AgentCore              |
++----------------------------------+
+| Runtime                         |
+| Memory                          |
+| Identity                        |
+| Gateway (Tools/APIs)            |
+| Browser                         |
+| Code Interpreter                |
+| Observability                   |
++----------------------------------+
+                      |
+                      v
+      Enterprise Systems & Data
+
+Amazon's Open-Source Agent Framework
+
+AWS also promotes Strands Agents, an open-source SDK for building agents.
+
+A Strands agent is typically composed of:
+
+agent = Agent(
+    model=model,
+    tools=tools,
+    system_prompt=prompt
+)
+
+The framework handles:
+
+Reasoning
+Tool calling
+Multi-step planning
+Agent loops
+Multi-agent systems
+
+while allowing developers to use different models and tools.
+
+Bedrock Agents vs. AgentCore
+Feature	Bedrock Agents	AgentCore
+Build agents quickly	✓	Partial
+Managed orchestration	✓	No (bring your own agent logic)
+Production deployment	Basic	Advanced
+Memory	✓	Advanced
+Security controls	✓	Advanced
+Multi-agent support	Limited	Strong
+Custom frameworks	Limited	✓
+Enterprise operations	Moderate	✓
+
+When to Use Which
+New to agentic AI → Start with Bedrock Agents.
+Need enterprise-scale deployment → Use AgentCore.
+Need custom agent workflows → Build with Strands, LangGraph, or CrewAI, then deploy on AgentCore.
+
+A common enterprise architecture on AWS today is:
+
+Strands / LangGraph
+         ↓
+     AgentCore
+         ↓
+   Bedrock Models
+         ↓
+ Knowledge Bases
+         ↓
+ Enterprise APIs
+
+This gives you both the flexibility of custom agent logic and the operational capabilities needed for production deployment.
